@@ -11,7 +11,8 @@
 kubectl create ns monitoring \
 kubectl create ns loki
 ```
-\n
+```
+```
 - Helm Repo Add
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
@@ -21,6 +22,8 @@ helm repo add grafana https://grafana.github.io/helm-charts
 ```
 ```
 helm repo update
+```
+```
 ```
 - Kube-Prometheus-Stack (AlertManager, Prometheus, Grafana)
 ```
