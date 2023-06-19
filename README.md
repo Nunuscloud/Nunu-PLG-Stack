@@ -3,7 +3,7 @@
 - Promtail: Collect logs
 - Grafana: Visualize the data
 - Prometheus: Collects metric data and alerts
-- Alertmanager: 
+- Alertmanager: Managing Prometheus alert
 
 # Install
 - Create Namespaces
