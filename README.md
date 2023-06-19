@@ -1,15 +1,17 @@
-# Loki-Stack
+# PLG-Stack
 - Loki: Save log data
 - Promtail: Collect logs
 - Grafana: Visualize the data
 - Prometheus: Collects metric data and alerts
+- Alertmanager: 
 
-# Installing
+# Install
 - Create Namespaces
 ```
 kubectl create ns monitoring \
 kubectl create ns loki
 ```
+\n
 - Helm Repo Add
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
